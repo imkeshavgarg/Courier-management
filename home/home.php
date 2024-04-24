@@ -124,7 +124,7 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 <body>
     <?php include('header.php'); ?>
     <div align='center' style="font-weight: bold;font-family:'Times New Roman', Times, serif"><br><br><br><br>
-        <h2>This is a SHIPSMART Courier Management Service</h2>
+        <h2>SHIPSMART Courier Management Service</h2>
         <h4>The fastest courier service of India</h4><br><br>
         <h3>ADBMS PROJECT</h3>
     </div>
