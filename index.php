@@ -121,14 +121,10 @@
 </head>
 
 <body>
-    <h1 align='center' style="margin: 15px; color:seagreen;font-weight: bold;font-family:'Times New Roman', Times, serif">UPES COURIER SERVICE</h1>
+    <h1 align='center' style="margin: 15px; color:seagreen;font-weight: bold;font-family:'Times New Roman', Times, serif">SHIPSMART COURIER SERVICE</h1>
     <hr />
     <p align='center' style="font-weight: bold;color:orange;font-family:'Times New Roman', Times, serif">The Fastest Courier Service Ever</p>
 
-    <!-- Inserted the image with a container div -->
-    <div class="logo">
-        <img src="20230923.jpg" alt="Courier Service Image">
-    </div>
 
     <div class="container" style="margin-top: 60px; width:50%;">
         <div class="row">
