@@ -1,4 +1,3 @@
-<!-- copyright and contactUs fixed footer -->
 
 <!DOCTYPE html>
 <html>

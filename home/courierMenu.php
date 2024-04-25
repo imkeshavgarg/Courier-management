@@ -1,4 +1,3 @@
-<!-- for 'courier' navbar, courier placing page -->
 <?php
 session_start();
 if (isset($_SESSION['uid'])) {
@@ -22,7 +21,6 @@ $uid = $_SESSION['uid'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place Order</title>
     <style>
-        /* General body style */
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -30,7 +28,6 @@ $uid = $_SESSION['uid'];
             padding: 0;
         }
 
-        /* Form container */
         form {
             margin: 50px auto;
             padding: 20px;
@@ -40,13 +37,11 @@ $uid = $_SESSION['uid'];
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Table styling */
         table {
             width: 100%;
             border-collapse: collapse;
         }
 
-        /* Table header style */
         th {
             background-color: #28a745;
             color: white;
@@ -55,13 +50,11 @@ $uid = $_SESSION['uid'];
             border-radius: 5px 5px 0 0;
         }
 
-        /* Table row and cell styles */
         td, th {
             padding: 10px;
             border-bottom: 1px solid #dee2e6;
         }
 
-        /* Form input styles */
         input[type="text"],
         input[type="number"],
         input[type="date"],
@@ -74,7 +67,6 @@ $uid = $_SESSION['uid'];
             box-sizing: border-box;
         }
 
-        /* Form submit button */
         input[type="submit"] {
             width: 100%;
             padding: 12px;
@@ -92,12 +84,10 @@ $uid = $_SESSION['uid'];
             background-color: #ffda59;
         }
 
-        /* Center text in cells */
         td {
             text-align: center;
         }
 
-        /* Align center text for table headers */
         th[colspan="4"] {
             text-align: center;
         }
@@ -182,7 +172,7 @@ $uid = $_SESSION['uid'];
 
 <?php
 
-if (isset($_POST['submit'])) { //if we'll not give this,it'will submit from with zero values.
+if (isset($_POST['submit'])) { 
 
     include('../dbconnection.php');
 

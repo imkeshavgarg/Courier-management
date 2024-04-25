@@ -18,7 +18,6 @@ include('header.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing</title>
     <style>
-        /* General body style */
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -26,7 +25,6 @@ include('header.php');
             padding: 20px;
         }
 
-        /* Pricing table */
         table {
             width: 50%;
             margin: 40px auto;
@@ -36,7 +34,6 @@ include('header.php');
             overflow: hidden;
         }
 
-        /* Table header style */
         th {
             background-color: #28a745;
             color: white;
@@ -44,7 +41,6 @@ include('header.php');
             padding: 10px;
         }
 
-        /* Table row styles */
         td {
             text-align: center;
             padding: 9px;
@@ -52,7 +48,6 @@ include('header.php');
             font-size: 13px;
         }
 
-        /* List styling */
         ol {
             margin: 0 auto;
             padding: 20px;
@@ -60,14 +55,12 @@ include('header.php');
             list-style: inside;
         }
 
-        /* List items */
         li {
             font-size: 18px;
             margin-bottom: 8px;
             color: #495057;
         }
 
-        /* Heading styling */
         h3 {
             text-align: center;
             font-size: 18px;

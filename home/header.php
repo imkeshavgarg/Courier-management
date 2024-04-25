@@ -31,7 +31,6 @@
                 <a href="contactUS.php" class="nav-item nav-link">ContactUs</a>
             </div>
             <div class="navbar-nav ml-auto">
-            <!-- <a href="../admin/logout.php" class="nav-item nav-link">AdminPage</a> -->
                 <a href="../logout.php" class="nav-item nav-link">LogOut</a>
             </div>
         </div>
